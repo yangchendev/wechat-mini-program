@@ -1,0 +1,15 @@
+<view class='mine-container'>
+    <view class='user-info-container'>
+        <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+        <text class='nickname'>{{userInfo.nickName}}</text>
+    </view>
+    <view class='position-container'>
+        <text class='province'>{{userInfo.province}}</text>
+        <view class='divider'></view>
+        <text class='city'>{{userInfo.city}}</text>
+    </view>
+    <view class='cache-container' catchtap='onClearCacheTap'>
+        <image class='cache-img' src='/images/icon/clear-cache.png'></image>
+        <text class='cache-text'>清除缓存</text>
+    </view>
+</view>

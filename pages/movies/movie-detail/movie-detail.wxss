@@ -1,0 +1,134 @@
+@import "../stars/stars-template.wxss";
+page{
+    width: 100%;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-img{
+    width: 100%;
+    height: 360rpx;
+    -webkit-filter: brightness(0.6);
+}
+.head-img-hover{
+    
+    height: 320rpx;
+    position: absolute;
+    top: 270rpx;
+    left: 300rpx;
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sub-title{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 6rpx;
+}
+.movie-img{
+    width: 200rpx;
+    height: 270rpx;
+    position: absolute;
+    top: 240rpx;
+    left: 50rpx;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 30px 0 #aaaaaa;
+}
+.summary{
+    margin-left: 300rpx;
+    margin-top: 2rpx;
+    color: #666666;
+}
+/* .original-title{
+    color: #1f3463;
+    font-size: 24rpx;
+    font-weight: 600;
+    margin-bottom: 40rpx;
+} */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6rpx;
+    margin-right: 4rpx;
+}
+.mark{
+    white-space: nowrap;
+    color: #999999;
+}
+.summary text{
+    font-size: 11px;
+}
+.hr-synopsis{
+    margin-top: 20rpx;
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+.hr-cast{
+    margin-top: 40rpx;
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+}
+.synopsis{
+    margin-left: 40rpx;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+
+}
+.synopsis-font{
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+}
+.summary-content{
+    margin-top: 10rpx;
+    margin-right: 40rpx;
+    line-height: 40rpx;
+    letter-spacing: 1px;
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 40rpx;
+    text-indent: 2em;
+}
+.cast{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-left: 40rpx;
+}
+.cast-font{
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10rpx;
+}
+.cast-container{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width:170rpx;
+    white-space: normal;
+    margin-right: 40rpx;
+    margin-bottom: 10rpx;
+}
+.cast-imgs{
+    white-space: nowrap;
+}
+.cast-img{
+    width: 170rpx;
+    height: 210rpx;
+}
+.cast-name{
+    margin: 10rpx auto 0;
+    word-break: break-all;
+}
