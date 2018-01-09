@@ -6,6 +6,7 @@
     
 }
 .movie-img{
+    border-radius: 16rpx;
     width:200rpx;
     height: 270rpx;
     margin-bottom: 20rpx;
